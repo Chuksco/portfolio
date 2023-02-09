@@ -2288,46 +2288,17 @@ body[data-layout-mode=dark] .my-work {
   color: #ffffff !important;
 }
 
-.blog .blog-item {
-  border-radius: 20px;
-}
-.blog .blog-item .blog-image {
-  position: relative;
-}
-.blog .blog-item .blog-image img {
-  border-radius: 20px;
-}
-.blog .blog-item .blog-image .blog-image-icon {
-  height: 3.8rem;
-  width: 3.8rem;
-  line-height: 3.4rem;
-  text-align: center;
-  border-radius: 50%;
-  color: #ffffff;
-  position: absolute;
-  bottom: -15%;
-  left: 10%;
-  border: 4px solid #ffffff;
-}
-.blog .blog-item .blog-content a {
-  color: #1c2f50 !important;
-  transition: all 0.5s;
-}
-.blog .blog-item .blog-content a:hover {
-  color: #2fb4ae !important;
-}
-
-body[data-layout-mode=dark] .blog {
+body[data-layout-mode=dark] {
   background-color: #303841 !important;
   color: #ffffff;
 }
-body[data-layout-mode=dark] .blog .blog-item {
+body[data-layout-mode=dark]  {
   background-color: #343f4b;
 }
-body[data-layout-mode=dark] .blog .blog-image-icon {
+body[data-layout-mode=dark]  {
   border: 4px solid #303841 !important;
 }
-body[data-layout-mode=dark] .blog .blog-content a {
+body[data-layout-mode=dark] a {
   color: #979797 !important;
 }
 
